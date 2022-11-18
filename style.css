@@ -1,4 +1,3 @@
-/* .Contact{background-image:url("c_image.jpg");} */
 
 .logo{background-image: url("h_img.jpg");
     text-align: center;
@@ -14,3 +13,5 @@
 footer{text-align: center;}
 
 .socials{margin-left: 20%;}
+
+#submit{margin-left: 50%;}
