@@ -12,21 +12,28 @@
 </head>
 
 <body>
+    <div class="logo">
+        <br><br><br><br><br><br><br><br><br>
+        <img src="logo.png" class="logo">
+        <h1 style="text-align:center">WELCOME <br>TO DELANI STUDIO</h1>
+        <p style="text-align:center">Amazing people are making amazing designs in a fun enviroment</p>
+        <br><br><br><br><br><br><br><br><br>
+    </div>
     <div>
-        <h1 style="text-align:center">ABOUT US</h1>
+        <h2 style="text-align:center">ABOUT US</h2>
         <P>When you work with us, you are part of a team of commutted collaborator. All aspects of our software development process are intergrated, interactive and agile.
             Our approach unifies design, delevelopment and product management to create exceptional products.
             We start each project by understangin your business goals, the user.s neds and the product requirements.
             Then we help translate them into effective and elegant solutions.</P>
     </div>
     <div class="services">
-        <h2 style="text-align:center">SERVICES</P>
+        <h3 style="text-align:center">SERVICES</h3>
         <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.
             The outcome of this scoping seesion is proposal or high-level statment of work.
             Based on your requirements, we can provide a complete offering or just pieces you need.</p>
     </div>
     <div>
-        <h3 style="text-align:center">WHAT WE DO</p>
+        <h4 style="text-align:center">WHAT WE DO</h4>
         <div class="row">
             <div class="col-md-4">
                 <img src="design_icon.png">
@@ -54,7 +61,7 @@
                     This iterative process allows for changes as business requirements evolve</p>
             </div>
         </div>
-        <p text="text align: center">Portfolio</p>
+        <h5 style="text-align: center;">Portfolio</h5>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3" id="work4">
                 <img src="work4.jpg" alt="">
@@ -88,30 +95,35 @@
             </div>
         </div>
         <br>
-        <div class="Contact">
-            <form>
-            <p>CONTACT US</p>
-            <div class="col-md-6">
-                <div class="formgroup">
-                    <label for="Email"></label>
-                    <input type="text" placeholder="Email.." id="Email">
+        <div class="Contactus">
+            <h6 style="text-align:center">Contact Us</h6>
+        <form>
+            <div class="row">
+                <div class="col-6">
+                    <div id="form-group">
+                        <label for="name"></label>
+                        <input type="text" class = "required form-control" placeholder="Name. . .">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div id="form-group">
+                        <label for="email"></label>
+                        <input type="email"  name="Email" class= "required email form-control" placeholder="Email. . .">
+                    </div>
+                </div>
+            </form>
+            <div class="col-12">
+                <div id="form-group">
+                    <label for="message"></label>
+                    <textarea type="text" name="MESSAGE" class="required form-control" id="mce-MESSAGE comment" cols="30" rows="10" placeholder="Your message here..."></textarea>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="formgroup">
-                    <label for="Name"></label>
-                    <input type="text" placeholder="Name.." id="Name">
-                </div>
-            </div>
-            </form>
         </div>
-                <br>
-                <label>feedback</label>
-                <input type="text" id="Feedback">
-            </form>
         </div>
-        <br>
-    <div>
+        <div id="submit"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" id="button"></div>
+    </form>
+    <br>
+    <div class="socials">
         <div class="row">
             <div class="col-md-1">
                 <img src="twitter.png">
@@ -141,5 +153,6 @@
                 <img src="stumble_upon.png">
             </div>   
         </div>
+    </div>
 </body>
 </html>
