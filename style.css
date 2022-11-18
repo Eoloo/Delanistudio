@@ -1,9 +1,11 @@
-.Contact{background-image:url("c_image.jnp");}
+/* .Contact{background-image:url("c_image.jpg");} */
 
 .logo{background-image: url("h_img.jpg");
     text-align: center;
 }
 
-.services{background-image: url("s_image.jnp");}
+.services{background-image: url("s_image.jpg");}
 
-.Contactus{background-image: url("c_image.jpg");}
+.Contactus{background-image: url("c_image.jpg");
+    background-size: cover;
+}
