@@ -1,7 +1,6 @@
-// $(document).ready(() =>{
+$(document).ready(() =>{
 
-// $("col-md-4").mouseleave(() => {
-//     $('p').show();
-//     alert("mouse here")
-// });
-// })
+$("#hover").click(() => {
+    alert("mouse here")
+});
+})
