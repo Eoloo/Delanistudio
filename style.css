@@ -1,4 +1,5 @@
 
+body{margin: 50px 100px 50px 100px;}
 .logo{background-image: url("h_img.jpg");
     text-align: center;
 }
@@ -9,9 +10,14 @@
 
 .Contactus{background-image: url("c_image.jpg");
     background-size: cover;
+    color: white;
 }
 footer{text-align: center;}
 
 .socials{margin-left: 20%;}
 
 #submit{margin-left: 50%;}
+
+#form-group{opacity: 0.2;
+    color: white;
+}
