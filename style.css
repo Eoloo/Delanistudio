@@ -3,9 +3,11 @@ body{margin: 50px 100px 50px 100px;}
 
 .logo{background-image: url("h_img.jpg");
     text-align: center;
+    background-size: cover;
 }
 
 .services{background-image: url("s_image.jpg");
+    background-size: cover;
     color: white;
 }
 
