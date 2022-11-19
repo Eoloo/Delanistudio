@@ -1,5 +1,6 @@
 
 body{margin: 50px 100px 50px 100px;}
+
 .logo{background-image: url("h_img.jpg");
     text-align: center;
 }
@@ -20,4 +21,10 @@ footer{text-align: center;}
 
 #form-group{opacity: 0.2;
     color: white;
+}
+ .images{display: flex;
+    justify-content: center;}
+
+p{text-align: center;
+    font-size: small;
 }
