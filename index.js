@@ -1,14 +1,17 @@
 $(document).ready(() =>{
 
-$(".Portfolio").hover(() => {
-    $(".col-sm-12 col-md-6 col-lg-3").mouseEnter()
-    alert("mouse here")
-});
-})
 
-$(".images").click(function(){
+$(".images").click(() =>{
     $("p").toggle();
   });
+
+$("p").click(() =>{
+    $(".images").toggle();
+})
+
+$(".imgs").hover(() =>{
+    $("img").mouseEnter()
+})
 
 $('#form-group').click(() => {
     const nameValue = $('.name form-control').val();
@@ -27,3 +30,4 @@ $('#form-group').click(() => {
 
     // alert(message);
 
+})
