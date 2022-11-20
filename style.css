@@ -21,9 +21,9 @@ footer{text-align: center;}
 
 #submit{margin-left: 50%;}
 
-#form-group{opacity: 0.2;
+/* #form-group{opacity: 0;
     color: white;
-}
+} */
  .images{display: flex;
     justify-content: center;}
 
@@ -33,3 +33,13 @@ p{text-align: center;
 h1{text-align: center;}
 h2{text-align: center;}
 h5{text-align: center;}
+
+input[type=text]{
+background: transparent;
+    color: white;
+}
+
+textarea[type=text]{
+    background:transparent;
+    color: white;
+}
