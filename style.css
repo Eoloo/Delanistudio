@@ -44,4 +44,4 @@ textarea[type=text]{
     color: white;
 }
 
-.imgs{opacity: 1.0;}
+.imgs:hover{opacity: 0.4;}
