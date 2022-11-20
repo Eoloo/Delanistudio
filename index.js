@@ -6,7 +6,7 @@ $(document).ready(() => {
     });
 
     $("p").click(() => {
-        $(".images, h5").toggle();
+        $(".images").toggle();
     })
 
     $(".imgs").hover(() => {
