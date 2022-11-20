@@ -6,8 +6,8 @@ $(".Portfolio").hover(() => {
 });
 })
 
-$("#hide").click(function(){
-    $("img").toggle();
+$(".images").click(function(){
+    $("p").toggle();
   });
 
 $('#form-group').click(() => {
