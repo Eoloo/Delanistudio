@@ -2,7 +2,7 @@ Project name: Delani Studio
 
 Author: Evans Oloo
 
-Contact: 254711517181, Twitter: @OchollaOloo
+Contact: +254711517181, Twitter: @OchollaOloo
 
 Project Description:
 
