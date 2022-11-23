@@ -1,47 +1,71 @@
+body {
+    margin: 50px 100px 50px 100px;
+}
 
-body{margin: 50px 100px 50px 100px;}
-
-.logo{background-image: url("h_img.jpg");
+.logo {
+    background-image: url("h_img.jpg");
     text-align: center;
     background-size: cover;
 }
 
-.services{background-image: url("s_image.jpg");
+.services {
+    background-image: url("s_image.jpg");
     background-size: cover;
     color: white;
 }
 
-.Contactus{background-image: url("c_image.jpg");
+.Contactus {
+    background-image: url("c_image.jpg");
     background-size: cover;
     color: white;
 }
-footer{text-align: center;}
 
-.socials{margin-left: 20%;}
+footer {
+    text-align: center;
+}
 
-#submit{margin-left: 50%;}
+.socials {
+    margin-left: 20%;
+}
 
-/* #form-group{opacity: 0;
-    color: white;
-} */
- .images{display: flex;
-    justify-content: center;}
+#submit {
+    margin-left: 50%;
+}
 
-p{text-align: center;
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
     font-size: medium;
 }
-h1{text-align: center;}
-h2{text-align: center;}
-h5{text-align: center;}
 
-input[type=text]{
-background: transparent;
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-size: bold;
+}
+
+input[type=text] {
+    background: transparent;
     color: white;
 }
 
-textarea[type=text]{
-    background:transparent;
+textarea[type=text] {
+    background: transparent;
     color: white;
 }
 
-.imgs:hover{opacity: 0.4;}
+.imgs:hover {
+    opacity: 0.4;
+}
