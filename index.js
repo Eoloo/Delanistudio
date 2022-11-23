@@ -14,7 +14,7 @@ $(document).ready((event) => {
         alert("mouse here")
     })
 
-    $('#submit').click(() => {
+    $('#button').click(() => {
         const nameValue = $('.name form-control').val();
         const emailValue = $('.email form-control').val();
         const textAreaValue = $(".required form-control").val();
