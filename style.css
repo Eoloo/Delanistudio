@@ -66,6 +66,12 @@ textarea[type=text] {
     color: white;
 }
 
-.imgs:hover {
-    opacity: 0.4;
+.hover,.hover1,.hover2,.hover3,.hover4,.hover5,.hover6,.hover7{
+    height: 310px;
+    width: 366px;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    margin-top: -8cm;
+   text-align: center;
 }
