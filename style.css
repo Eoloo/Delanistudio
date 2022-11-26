@@ -18,6 +18,7 @@ body {
     background-image: url("c_image.jpg");
     background-size: cover;
     color: white;
+    padding: 10%;
 }
 
 footer {
@@ -30,6 +31,7 @@ footer {
 
 #submit {
     margin-left: 50%;
+    align-items: center;
 }
 
 
@@ -77,4 +79,5 @@ textarea[type=text] {
     margin-top: -8cm;
     text-align: center;
 }
+
 
