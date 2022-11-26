@@ -70,7 +70,7 @@ $(document).ready(() => {
         let emailValue = $('#email').val();
         let textAreaValue = $('#text').val();
 
- 
+
         if (nameValue == '' || emailValue == '' || textAreaValue == '') {
             alert("Please input all the information")
         }
