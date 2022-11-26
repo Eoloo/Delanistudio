@@ -69,12 +69,12 @@ textarea[type=text] {
 .hover,.hover1,.hover2,.hover3,.hover4,.hover5,.hover6,.hover7{
     height: 310px;
     width: 366px;
-    padding: 5px;
     flex: 25%;
+    padding: 5%;
     position: absolute;
     background-color: white;
     opacity: 0;
-    margin-top: 4px;
+    margin-top: -8cm;
     text-align: center;
 }
 
