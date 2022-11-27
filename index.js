@@ -2,10 +2,10 @@ $(document).ready(() => {
 
 
     $(".images").click(() => {
-        $("p").toggle();
+        $(".hide").toggle();
     });
 
-    $("p").click(() => {
+    $(".hide").click(() => {
         $(".images").toggle();
     })
 
